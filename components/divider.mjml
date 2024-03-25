@@ -1,0 +1,10 @@
+<mj-raw>
+      <!--Line Divider-->
+    </mj-raw>
+   <mj-section>
+        <mj-column> 
+            <mj-image padding="0" alt="green line divider" src="https://parkerd23.github.io/Uber/Photos/2-linesYellow.png">
+            
+        </mj-column>
+         
+   </mj-section>

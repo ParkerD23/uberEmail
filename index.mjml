@@ -1,0 +1,189 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      *{
+        box-sizing: border-box;
+      }
+
+       .link-color {
+            color: #071822;
+            text-decoration: none;
+        }
+
+        .link-color:hover {
+            color: #7bc158;
+            text-decoration: none;
+        }
+    </mj-style>
+
+    <mj-style inline="inline">
+        .content-background {
+            background-color: #ffffff;
+        }
+
+        .header {
+            background-color: #071822;
+        }
+
+        .section-padding {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+
+        .icon-size {
+          max-width: 280px;
+          padding: 40px 0 60px;
+        }
+
+        .footer {
+          background-image: url("https://parkerd23.github.io/Uber/Photos/bg-colors.png");
+          background-size: cover;
+        }
+
+        
+
+        .footer-links:hover {
+            color: #7bc158;
+            text-decoration: none;
+        }
+
+        
+        
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#f2f2f2">
+   <mj-section css-class="content-background" padding="0">
+
+    <mj-raw><!--Header--></mj-raw>
+    <mj-include path="components/header.mjml">
+
+    <mj-raw>
+      <!--Email Top Title/Date-->
+   </mj-raw>
+
+   <mj-section>
+    <mj-column padding="20px 0 15px 0">
+        <mj-text css-class="header-title" font-size="40px" color="#071822" font-weight="bold" letter-spacing="-3px">
+            March Offers
+        </mj-text>
+        <mj-text css-class="header-title" font-size="18px" color="#071822">
+            <strong>March 1, 2024</strong>
+        </mj-text>
+    
+    </mj-column>
+   
+   </mj-section>
+   
+   <mj-raw><!--2 Line Divider--></mj-raw>
+    <mj-include path="components/divider.mjml">
+  
+
+     <mj-raw>
+      <!--2 Columns of Deals-->
+   </mj-raw>
+
+    <mj-section>
+        <mj-column>
+            <mj-image href="https://ubereats.com" padding-bottom="20px" src="https://parkerd23.github.io/Uber/Photos/burgerDerby.png" alt="AI Generated Image of a Hamburger on Wheels">
+        
+         </mj-column>
+         <mj-column>
+            <mj-text color="#071822" padding-bottom="7px" font-size="24px" font-weight="bold" letter-spacing="-2px">
+                <a href="https://ubereats.com" class="link-color">Burger Derby</a>
+            </mj-text>
+        
+            <mj-text color="#071822" padding-bottom="5px" font-size="16px" letter-spacing="-1px" line-height="20px">
+                <strong>Wednesday night burger special now includes half off second burger orders.  Also dessert specials available with all orders.  One side included with all burger orders.  Get your burger buzz on!</strong>  
+            </mj-text>
+
+            <mj-text padding-bottom="20px" font-size="14px" font-weight="bold" letter-spacing="-1px" line-height="20px">
+               <a href="https://ubereats.com" class="link-color"> Learn More</a>  &#8594;
+            </mj-text>
+         </mj-column>
+    </mj-section>
+
+   <mj-raw><!--2 Line Divider--></mj-raw> 
+    <mj-include path="components/divider.mjml">
+
+    <mj-section>
+        
+         <mj-column>
+            <mj-text color="#071822" padding-bottom="7px" font-size="24px" font-weight="bold" letter-spacing="-2px">
+                <a href="https://ubereats.com" class="link-color">Soaring Subs</a>
+            </mj-text>
+        
+            <mj-text color="#071822" padding-bottom="5px" font-size="16px" letter-spacing="-1px" line-height="20px">
+                <strong>6-inch sub sandwich lunch special now only $5.99 and includes a side of chips and medium fountain drink.  Our pasta salad is back and better than ever!  Available as a side item with any combo, or in quart sized togo orders.</strong>  
+            </mj-text>
+
+            <mj-text padding-bottom="20px" font-size="14px" font-weight="bold" letter-spacing="-1px" line-height="20px">
+               <a href="https://ubereats.com" class="link-color"> Learn More</a>  &#8594;
+            </mj-text>
+         </mj-column>
+         <mj-column>
+            <mj-image href="https://ubereats.com" padding-bottom="20px" src="https://parkerd23.github.io/Uber/Photos/sandWich.png" alt="AI Generated Image of Turkey Sub Sandwich">
+        
+         </mj-column>
+    </mj-section> 
+        
+    <mj-raw><!--2 Line Divider--></mj-raw>
+    <mj-include path="components/divider.mjml">
+    <mj-section>
+        <mj-column>
+            <mj-image href="https://ubereats.com" padding-bottom="20px" src="https://parkerd23.github.io/Uber/Photos/pizzaScrn.png" alt="AI Generated Image of Slice of Pizza">
+        
+         </mj-column>
+         <mj-column>
+            <mj-text color="#071822" padding-bottom="7px" font-size="24px" font-weight="bold" letter-spacing="-2px">
+                <a href="https://ubereats.com" class="link-color">Mobile Slices</a>
+            </mj-text>
+        
+            <mj-text color="#071822" padding-bottom="5px" font-size="16px" letter-spacing="-1px" line-height="20px">
+                <strong>All month long any mobile orders of two slices through the Uber Eats app will automatically be half off!  All orders must be placed from 3-5pm on weekdays only.</strong>  
+            </mj-text>
+
+            <mj-text padding-bottom="20px" font-size="14px" font-weight="bold" letter-spacing="-1px" line-height="20px">
+               <a href="https://ubereats.com" class="link-color"> Learn More</a>  &#8594;  
+               
+               
+            </mj-text>
+         </mj-column>
+         
+     </mj-section>
+
+     <mj-raw><!--2 Line Divider--></mj-raw>
+    <mj-include path="components/divider.mjml"> 
+    <mj-raw><!--Bottom Text--></mj-raw>
+    <mj-section padding="40px 20px 40px 20px">
+      <mj-column>
+        <mj-text font-size="18px" font-weight="bold" line-height="20px" align="center" letter-spacing="-1px">
+        
+          There's more to love in the app.</br>
+          Download the Uber Eats app today!
+        
+        </mj-text>      
+      </mj-column>
+
+    </mj-section>
+
+    <mj-raw><!--2 App Icons --></mj-raw>
+    <mj-section padding="0 0 50px">
+     <mj-group>
+      <mj-column padding="0">
+        <mj-image href="https://apple.com" src="https://parkerd23.github.io/Uber/Photos/appstore.png" width="150px" height="43px" align="right" padding="0 5px" alt="Apple Store Logo">     
+      </mj-column>
+      <mj-column padding="0">
+        <mj-image href="https://google.com" src="https://parkerd23.github.io/Uber/Photos/android.png" width="150px" height="43px" align="left" padding="0 5px" alt="Google Play Store Logo">     
+      </mj-column>
+     </mj-group> 
+    </mj-section>
+
+   <mj-raw><!--Footer--></mj-raw>
+   <mj-include path="components/footer.mjml">
+
+  </mj-section>
+ </mj-body>
+
+</mjml>

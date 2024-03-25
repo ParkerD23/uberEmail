@@ -1,0 +1,44 @@
+ 
+    <mj-wrapper css-class="footer" padding="0 40px">
+     <mj-section padding="0 0 20px">
+      <mj-group css-class="icon-size">
+
+       <mj-column padding="0">
+        <mj-image href="https://apple.com" href="https://facebook.com/ubereats" src="https://parkerd23.github.io/Uber/Photos/fb.png" width="27px" height="27px" padding="0 5px" alt="facebook icon logo">     
+       </mj-column>
+       <mj-column padding="0">
+        <mj-image href="https://twitter.com/ubereats" src="https://parkerd23.github.io/Uber/Photos/tw.png" width="27px" height="27px" padding="0 5px" alt="twitter icon logo">     
+       </mj-column>
+       <mj-column padding="0">
+        <mj-image href="https://instagram.com/ubereats" src="https://parkerd23.github.io/Uber/Photos/insta.png" width="27px" height="27px" padding="0 5px" alt="instagram icon logo">     
+       </mj-column>
+       <mj-column padding="0">
+        <mj-image href="https://pinterest.com/ubereats" src="https://parkerd23.github.io/Uber/Photos/pin.png" width="27px" height="27px" padding="0 5px" alt="pinterest icon logo">     
+       </mj-column>
+       <mj-column padding="0">
+        <mj-image href="https://indeed.com/ubereats" src="https://parkerd23.github.io/Uber/Photos/in.png" width="27px" height="27px" padding="0 5px" alt="indeed icon logo">     
+       </mj-column>
+       <mj-column padding="0">
+        <mj-image href="https://snapchat.com/ubereats" src="https://parkerd23.github.io/Uber/Photos/snap.png" width="27px" height="27px" padding="0 5px" alt="snapchat icon logo">     
+       </mj-column>
+
+
+      </mj-group> 
+     </mj-section>
+     <mj-section padding="20px 0 0">
+        <mj-column padding="0">
+          <mj-text font-size="12px" letter-spacing="-1px" align="center">
+            <strong>&copy; 2024 Uber Technologies, Inc.<br> 1455 Market Street, San Francisco, CA 94103</strong>
+          </mj-text>
+        
+        </mj-column>
+     </mj-section>
+     <mj-section padding="0 0 60px">
+        <mj-column padding="0">
+          <mj-text font-size="12px" letter-spacing="-1px" align="center">
+            <strong><a href="#" class="link-color">Unsubscribe</a> | <a href="#" class="link-color">Manage Your Email Preferences</a></strong>
+          </mj-text>
+        
+        </mj-column>
+     </mj-section>
+    </mj-wrapper>

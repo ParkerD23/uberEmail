@@ -1,0 +1,15 @@
+<mj-raw>
+      <!--Header-->
+   </mj-raw>
+    <mj-section css-class="header section-padding">
+        <mj-column>
+            <mj-image alt="uber logo" href="https://www.ubereats.com" width="80px" height="80px" align="left"  src="https://parkerd23.github.io/Uber/Photos/uberLogo.png">
+        </mj-column>
+        <mj-raw>
+      <!-- <mj-column>
+             <mj-text color="#fefefd" align="right" padding-top="40px"><ins>View in Browser</ins></mj-text>
+        </mj-column>-->
+        </mj-raw>
+       
+    
+    </mj-section>
